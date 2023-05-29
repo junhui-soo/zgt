@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-05-28_0856",
-    "currentPage": "contact.html",
+    "currentPage": "page8.html",
     "theme": {
       "name": "conferencem4",
       "title": "ConferenceM4",
@@ -38,7 +38,7 @@
     "mcSmartCart": {
       "currency": "USD"
     },
-    "uniqCompNum": 64,
+    "uniqCompNum": 66,
     "versionPublish": "5.8.4",
     "screenshot": "screenshot.png"
   },
@@ -46,7 +46,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "致公堂",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -309,7 +309,7 @@
                 "min-height": "80px",
                 ".navbar-logo": {
                   "img": {
-                    "height": "1rem !important"
+                    "height": "3rem !important"
                   }
                 },
                 ".navbar-brand": {
@@ -751,7 +751,7 @@
         {
           "_name": "afooter2",
           "_sourceTheme": "homem5",
-          "_customHTML": "<section class=\"footer2 homem5\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/homem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1a1e21\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1a1e21\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    Developed and Powered by Vastcomp Solutions Sdn Bhd</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer2 homem5\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/homem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1a1e21\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1a1e21\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <a href =\"https://www.vcgroup.com.my\" target=\"_blank\">\n                <div class=\"vc-logo mbr-text mb-0 mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    Developed and Powered by Vastcomp Solutions Sdn Bhd <img src=\"@PROJECT_PATH@/assets/images/vastcomplogo-153x114.png\"></div></a>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -766,6 +766,11 @@
             },
             ".media-container-row .mbr-text": {
               "text-align": "center"
+            },
+            ".vc-logo": {
+              "img": {
+                "height": "40px"
+              }
             }
           },
           "_cid": "tFzs0kNvSo",
@@ -779,7 +784,7 @@
     },
     "page3.html": {
       "settings": {
-        "title": "Event 1",
+        "title": "第二届理事宣誓就职晚宴｜致公堂",
         "order": "4",
         "meta_descr": ""
       },
@@ -1040,7 +1045,7 @@
                 "min-height": "80px",
                 ".navbar-logo": {
                   "img": {
-                    "height": "1rem !important"
+                    "height": "3rem !important"
                   }
                 },
                 ".navbar-brand": {
@@ -1688,7 +1693,7 @@
         {
           "_name": "afooter2",
           "_sourceTheme": "homem5",
-          "_customHTML": "<section class=\"footer2 homem5\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/homem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1a1e21\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1a1e21\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    Developed and Powered by Vastcomp Solutions Sdn Bhd</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer2 homem5\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/homem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1a1e21\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1a1e21\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <a href =\"https://www.vcgroup.com.my\" target=\"_blank\">\n                <div class=\"vc-logo mbr-text mb-0 mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    Developed and Powered by Vastcomp Solutions Sdn Bhd <img src=\"@PROJECT_PATH@/assets/images/vastcomplogo-153x114.png\"></div></a>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -1703,6 +1708,11 @@
             },
             ".media-container-row .mbr-text": {
               "text-align": "center"
+            },
+            ".vc-logo": {
+              "img": {
+                "height": "40px"
+              }
             }
           },
           "_cid": "tFzs0kNvSo",
@@ -1716,7 +1726,7 @@
     },
     "page4.html": {
       "settings": {
-        "title": "Event 2",
+        "title": "接待中国致公堂中央代表团莅临马来西亚考察｜致公堂",
         "order": "5",
         "meta_descr": ""
       },
@@ -1977,7 +1987,7 @@
                 "min-height": "80px",
                 ".navbar-logo": {
                   "img": {
-                    "height": "1rem !important"
+                    "height": "3rem !important"
                   }
                 },
                 ".navbar-brand": {
@@ -2335,7 +2345,7 @@
         {
           "_name": "afooter2",
           "_sourceTheme": "homem5",
-          "_customHTML": "<section class=\"footer2 homem5\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/homem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1a1e21\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1a1e21\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    Developed and Powered by Vastcomp Solutions Sdn Bhd</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer2 homem5\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/homem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1a1e21\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1a1e21\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <a href =\"https://www.vcgroup.com.my\" target=\"_blank\">\n                <div class=\"vc-logo mbr-text mb-0 mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    Developed and Powered by Vastcomp Solutions Sdn Bhd <img src=\"@PROJECT_PATH@/assets/images/vastcomplogo-153x114.png\"></div></a>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -2350,6 +2360,11 @@
             },
             ".media-container-row .mbr-text": {
               "text-align": "center"
+            },
+            ".vc-logo": {
+              "img": {
+                "height": "40px"
+              }
             }
           },
           "_cid": "tFzs0kNvSo",
@@ -2363,7 +2378,7 @@
     },
     "page5.html": {
       "settings": {
-        "title": "Event 3",
+        "title": "中华人民共和国成立70周年庆祝活动｜致公堂",
         "order": "6",
         "meta_descr": ""
       },
@@ -2624,7 +2639,7 @@
                 "min-height": "80px",
                 ".navbar-logo": {
                   "img": {
-                    "height": "1rem !important"
+                    "height": "3rem !important"
                   }
                 },
                 ".navbar-brand": {
@@ -2982,7 +2997,7 @@
         {
           "_name": "afooter2",
           "_sourceTheme": "homem5",
-          "_customHTML": "<section class=\"footer2 homem5\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/homem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1a1e21\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1a1e21\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    Developed and Powered by Vastcomp Solutions Sdn Bhd</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer2 homem5\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/homem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1a1e21\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1a1e21\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <a href =\"https://www.vcgroup.com.my\" target=\"_blank\">\n                <div class=\"vc-logo mbr-text mb-0 mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    Developed and Powered by Vastcomp Solutions Sdn Bhd <img src=\"@PROJECT_PATH@/assets/images/vastcomplogo-153x114.png\"></div></a>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -2997,6 +3012,11 @@
             },
             ".media-container-row .mbr-text": {
               "text-align": "center"
+            },
+            ".vc-logo": {
+              "img": {
+                "height": "40px"
+              }
             }
           },
           "_cid": "tFzs0kNvSo",
@@ -3010,7 +3030,7 @@
     },
     "page6.html": {
       "settings": {
-        "title": "Event 4",
+        "title": "致公堂中央招待宴会｜致公堂",
         "order": "7",
         "meta_descr": ""
       },
@@ -3271,7 +3291,7 @@
                 "min-height": "80px",
                 ".navbar-logo": {
                   "img": {
-                    "height": "1rem !important"
+                    "height": "3rem !important"
                   }
                 },
                 ".navbar-brand": {
@@ -3629,7 +3649,7 @@
         {
           "_name": "afooter2",
           "_sourceTheme": "homem5",
-          "_customHTML": "<section class=\"footer2 homem5\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/homem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1a1e21\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1a1e21\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    Developed and Powered by Vastcomp Solutions Sdn Bhd</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer2 homem5\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/homem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1a1e21\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1a1e21\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <a href =\"https://www.vcgroup.com.my\" target=\"_blank\">\n                <div class=\"vc-logo mbr-text mb-0 mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    Developed and Powered by Vastcomp Solutions Sdn Bhd <img src=\"@PROJECT_PATH@/assets/images/vastcomplogo-153x114.png\"></div></a>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -3644,6 +3664,11 @@
             },
             ".media-container-row .mbr-text": {
               "text-align": "center"
+            },
+            ".vc-logo": {
+              "img": {
+                "height": "40px"
+              }
             }
           },
           "_cid": "tFzs0kNvSo",
@@ -3657,7 +3682,7 @@
     },
     "page7.html": {
       "settings": {
-        "title": "Event 5",
+        "title": "“一带一路”座谈会｜致公堂",
         "order": "8",
         "meta_descr": ""
       },
@@ -3918,7 +3943,7 @@
                 "min-height": "80px",
                 ".navbar-logo": {
                   "img": {
-                    "height": "1rem !important"
+                    "height": "3rem !important"
                   }
                 },
                 ".navbar-brand": {
@@ -4276,7 +4301,7 @@
         {
           "_name": "afooter2",
           "_sourceTheme": "homem5",
-          "_customHTML": "<section class=\"footer2 homem5\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/homem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1a1e21\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1a1e21\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    Developed and Powered by Vastcomp Solutions Sdn Bhd</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer2 homem5\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/homem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1a1e21\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1a1e21\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <a href =\"https://www.vcgroup.com.my\" target=\"_blank\">\n                <div class=\"vc-logo mbr-text mb-0 mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    Developed and Powered by Vastcomp Solutions Sdn Bhd <img src=\"@PROJECT_PATH@/assets/images/vastcomplogo-153x114.png\"></div></a>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -4291,6 +4316,11 @@
             },
             ".media-container-row .mbr-text": {
               "text-align": "center"
+            },
+            ".vc-logo": {
+              "img": {
+                "height": "40px"
+              }
             }
           },
           "_cid": "tFzs0kNvSo",
@@ -4304,7 +4334,7 @@
     },
     "page8.html": {
       "settings": {
-        "title": "Event 6",
+        "title": "感谢中国致公堂给予抗疫用品｜致公堂",
         "order": "9",
         "meta_descr": ""
       },
@@ -4565,7 +4595,7 @@
                 "min-height": "80px",
                 ".navbar-logo": {
                   "img": {
-                    "height": "1rem !important"
+                    "height": "3rem !important"
                   }
                 },
                 ".navbar-brand": {
@@ -4923,7 +4953,7 @@
         {
           "_name": "afooter2",
           "_sourceTheme": "homem5",
-          "_customHTML": "<section class=\"footer2 homem5\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/homem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1a1e21\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1a1e21\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    Developed and Powered by Vastcomp Solutions Sdn Bhd</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer2 homem5\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/homem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1a1e21\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1a1e21\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <a href =\"https://www.vcgroup.com.my\" target=\"_blank\">\n                <div class=\"vc-logo mbr-text mb-0 mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    Developed and Powered by Vastcomp Solutions Sdn Bhd <img src=\"@PROJECT_PATH@/assets/images/vastcomplogo-153x114.png\"></div></a>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -4938,6 +4968,11 @@
             },
             ".media-container-row .mbr-text": {
               "text-align": "center"
+            },
+            ".vc-logo": {
+              "img": {
+                "height": "40px"
+              }
             }
           },
           "_cid": "tFzs0kNvSo",
@@ -4951,7 +4986,7 @@
     },
     "committee.html": {
       "settings": {
-        "title": "Committee",
+        "title": "理事会｜致公堂",
         "order": "2",
         "meta_descr": ""
       },
@@ -5212,7 +5247,7 @@
                 "min-height": "80px",
                 ".navbar-logo": {
                   "img": {
-                    "height": "1rem !important"
+                    "height": "3rem !important"
                   }
                 },
                 ".navbar-brand": {
@@ -5792,7 +5827,7 @@
         {
           "_name": "afooter2",
           "_sourceTheme": "homem5",
-          "_customHTML": "<section class=\"footer2 homem5\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/homem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1a1e21\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1a1e21\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    Developed and Powered by Vastcomp Solutions Sdn Bhd</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer2 homem5\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/homem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1a1e21\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1a1e21\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <a href =\"https://www.vcgroup.com.my\" target=\"_blank\">\n                <div class=\"vc-logo mbr-text mb-0 mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    Developed and Powered by Vastcomp Solutions Sdn Bhd <img src=\"@PROJECT_PATH@/assets/images/vastcomplogo-153x114.png\"></div></a>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -5807,6 +5842,11 @@
             },
             ".media-container-row .mbr-text": {
               "text-align": "center"
+            },
+            ".vc-logo": {
+              "img": {
+                "height": "40px"
+              }
             }
           },
           "_cid": "tFzs0kNvSo",
@@ -5820,7 +5860,7 @@
     },
     "about.html": {
       "settings": {
-        "title": "About",
+        "title": "关于｜致公堂",
         "order": "1",
         "meta_descr": ""
       },
@@ -6081,7 +6121,7 @@
                 "min-height": "80px",
                 ".navbar-logo": {
                   "img": {
-                    "height": "1rem !important"
+                    "height": "3rem !important"
                   }
                 },
                 ".navbar-brand": {
@@ -6454,7 +6494,7 @@
         {
           "_name": "afooter2",
           "_sourceTheme": "homem5",
-          "_customHTML": "<section class=\"footer2 homem5\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/homem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1a1e21\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1a1e21\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    Developed and Powered by Vastcomp Solutions Sdn Bhd</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer2 homem5\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/homem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1a1e21\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1a1e21\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <a href =\"https://www.vcgroup.com.my\" target=\"_blank\">\n                <div class=\"vc-logo mbr-text mb-0 mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    Developed and Powered by Vastcomp Solutions Sdn Bhd <img src=\"@PROJECT_PATH@/assets/images/vastcomplogo-153x114.png\"></div></a>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -6469,6 +6509,11 @@
             },
             ".media-container-row .mbr-text": {
               "text-align": "center"
+            },
+            ".vc-logo": {
+              "img": {
+                "height": "40px"
+              }
             }
           },
           "_cid": "tFzs0kNvSo",
@@ -6482,7 +6527,7 @@
     },
     "contact.html": {
       "settings": {
-        "title": "Contact",
+        "title": "联系我们｜致公堂",
         "order": "3",
         "meta_descr": ""
       },
@@ -6743,7 +6788,7 @@
                 "min-height": "80px",
                 ".navbar-logo": {
                   "img": {
-                    "height": "1rem !important"
+                    "height": "3rem !important"
                   }
                 },
                 ".navbar-brand": {
@@ -6939,167 +6984,148 @@
         {
           "alias": false,
           "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-section-title, .title__address, .title__social": {
-              "margin-bottom": "20px"
-            },
-            ".info": {
-              "margin-bottom": "20px"
-            },
-            ".text__info, .work__time, .work__address": {
-              "margin-bottom": "0"
-            },
-            "@media (min-width: 992px)": {
-              ".info__wrap": {
-                "padding": "0 30px"
-              }
-            },
-            ".divider": {
-              "background-color": "@dividerColor",
+            ".main_wrapper": {
+              "position": "relative",
+              "height": "(@heightMap * 1px)",
               "width": "100%",
-              "height": "1px",
-              "margin": "75px 15px 85px",
-              "opacity": "0.6"
+              "background-color": "#c0c0c0"
             },
-            ".dragArea": {
-              ".form-control": {
-                "height": "49px",
-                "font-size": "16px",
-                "color": "@colorForm",
-                "padding": "14px 15px",
-                "border": "none !important",
-                "line-height": "1.3",
-                "border-radius": "4px",
-                "background-color": "@formBgColor !important",
-                "& when (@transparent)": {
-                  "background-color": "transparent !important",
-                  "border": "1px solid fade(@borderColor, 0.4 * 100%)"
-                },
-                "&:hover, &:focus": {
-                  "border": "none !important"
-                }
-              },
-              ".jq-selectbox li:hover, .jq-selectbox li.selected": {
-                "background-color": "@infoColor",
-                "color": "#ffffff"
-              },
-              ".jq-selectbox:hover .jq-selectbox__trigger-arrow": {
-                "border-color": "@secondaryColor !important"
-              },
-              ".jq-selectbox__select": {
-                "padding": "14px 15px",
-                "border-radius": "4px",
-                "position": "absolute",
-                "top": "0",
-                "left": "0",
+            ".b_wrapper": {
+              "height": "100%",
+              "display": "flex",
+              "align-items": "center",
+              "position": "relative",
+              "z-index": "2",
+              "pointer-events": "none"
+            },
+            ".block_wrapper": {
+              "height": "100%",
+              "background-color": "fade(@colorBlock, @blockOpacity)",
+              "pointer-events": "fill",
+              "padding": "50px 20px 50px 50px"
+            },
+            ".title__address": {
+              "margin-bottom": "20px"
+            },
+            ".work__address": {
+              "margin": "10px 0 40px"
+            },
+            ".work__phone": {
+              "margin-bottom": "20px"
+            },
+            ".mbr-section-btn": {
+              "margin-top": "40px"
+            },
+            ".btn-primary:hover": {
+              "background-color": "@secondaryColor !important",
+              "border-color": "@secondaryColor !important"
+            },
+            ".google-map": {
+              "height": "100%",
+              "width": "100%",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "z-index": "1",
+              "iframe": {
+                "height": "100%",
                 "width": "100%"
               },
-              ".jq-selectbox__select-text": {
-                "color": "@colorForm",
-                "opacity": "0.8"
+              "[data-state-details]": {
+                "color": "#6b6763",
+                "font-family": "Montserrat",
+                "height": "1.5em",
+                "margin-top": "-0.75em",
+                "padding-left": "1.25rem",
+                "padding-right": "1.25rem",
+                "position": "absolute",
+                "text-align": "center",
+                "top": "50%",
+                "width": "100%"
               },
-              ".jq-selectbox__trigger-arrow": {
-                "border": "2px solid",
-                "border-left": "none",
-                "border-top": "none",
-                "transform": "rotate(45deg)",
-                "width": "7px",
-                "height": "7px",
-                "top": "40%",
-                "right": "20px",
-                "border-color": "@secondaryColor"
+              "&[data-state]": {
+                "background": "#e9e5dc"
               },
-              "textarea": {
-                "height": "160px !important"
-              },
-              "input::-webkit-input-placeholder": {
-                "color": "@colorForm",
-                "opacity": "0.8"
-              },
-              "input::-moz-placeholder": {
-                "color": "@colorForm",
-                "opacity": "0.8"
-              },
-              "textarea::-webkit-input-placeholder": {
-                "color": "@colorForm",
-                "opacity": "0.8"
-              },
-              "textarea::-moz-placeholder": {
-                "color": "@colorForm",
-                "opacity": "0.8"
-              }
-            },
-            ".input-group-btn": {
-              "padding": "0 10px",
-              ".btn": {
-                "margin": "0",
-                "margin-top": "15px"
-              }
-            },
-            ".form-group": {
-              "padding": "10px",
-              "margin-bottom": "10px"
-            },
-            ".form-control-label": {
-              "margin-bottom": "8px",
-              "font-weight": "500"
-            },
-            "& when not (@showAddress) and not (@showSocial)": {
-              ".form-group, .input-group-btn": {
-                "padding": "0"
-              },
-              ".dragArea": {
-                ".form-control": {
-                  "border": "none"
-                }
-              }
-            },
-            "@media (max-width: 991px)": {
-              ".divider": {
-                "margin": "40px 15px 45px"
-              },
-              "& when not (@showAddress) and not (@showSocial)": {
-                ".form-group, .input-group-btn": {
-                  "padding": "0 15px"
+              "&[data-state='loading']": {
+                "[data-state-details]": {
+                  "display": "none"
                 }
               }
             },
             "@media (max-width: 767px)": {
-              ".social, .address, .info__wrap": {
-                "margin-bottom": "30px"
+              ".container": {
+                "max-width": "100%",
+                ".row": {
+                  "margin": "0"
+                }
               },
-              ".form-group": {
-                "padding": "10px 15px"
-              },
-              ".input-group-btn": {
-                "padding": "0 15px"
+              ".block_wrapper": {
+                "height": "100%",
+                "background-color": "@colorBlock",
+                "pointer-events": "fill",
+                "padding": "30px 20px"
               }
-            },
-            "LABEL": {
-              "color": "#000000"
             }
           },
-          "_name": "contact2",
+          "_name": "contact4",
           "_sourceTheme": "conferencem4",
-          "_customHTML": "<section class=\"contact2 conferencem4_contact2\" group=\"Contacts\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"formstyler\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"One Сolumn\" name=\"showColumn\" checked>\n        <input type=\"checkbox\" title=\"Address\" name=\"showAddress\" checked>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\" checked>\n        <input type=\"color\" title=\"Divider Color\" name=\"dividerColor\" value=\"#191f23\" condition=\"showAddress || showSocial\">\n        <header>Form</header>\n        <input type=\"color\" title=\"Text Color\" value=\"#232226\" name=\"colorForm\">\n        <input type=\"checkbox\" title=\"Transparent Form\" name=\"transparent\">\n        <input type=\"color\" title=\"Form Color\" value=\"#f5f7fd\" name=\"formBgColor\" condition=\"!transparent\">\n        <input type=\"color\" title=\"Border Color\" value=\"#ebeaed\" name=\"borderColor\" condition=\"transparent\">\n        <input type=\"checkbox\" title=\"Left/Right Content\" name=\"reverse\" condition=\"!showAddress && !showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/conference28_1920.jpg\" parallax>\n            <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#17161a\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverse}\">\n            <div class=\"col-md-6 info__wrap\" mbr-class=\"{'col-lg-4' : showAddress || showSocial, 'col-lg-6' : !showAddress && !showSocial}\">\n                <h3 class=\"mbr-section-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                    Get in touch with us</h3>\n                <div class=\"row\">\n                    <div mbr-class=\"{'col-md-6' : showColumn, 'col-md-12' : !showColumn}\">\n                        <div class=\"info\">\n                            <p class=\"text__info mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__info\">Phone: <br>+(123)456-78-90</p>\n                        </div>\n                        <p class=\"work__time mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".work__time\">Business hours:<br>Monday – Friday<br>7 am - 8 pm EST</p>\n                    </div>\n                    <div class=\"col-md-6\" mbr-if=\"showColumn\">\n                        <div class=\"info\">\n                            <p class=\"text__info mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text__info\">Phone: <br>+(123)456-78-91</p>\n                        </div>\n                        <p class=\"work__time mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".work__time\">Business hours:<br>Wednesday<br>6 am - 8 pm EST</p>\n                    </div>\n                </div>\n            </div>\n            <div class mbr-if=\"showAddress || showSocial\" mbr-class=\"{'col-lg-2 d-lg-block d-none' : showAddress || showSocial, 'd-none' : !showAddress || !showSocial}\">\n            </div>\n            <div class=\"col-md-3 address\" mbr-if=\"showAddress\">\n                <h3 class=\"title__address mbr-bold mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".title__address\">Post address</h3>\n                <p class=\"work__address mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".work__address\">\n                    5505 Boul St-Laurent #2000,<br> Montréal, QC H2T 1S6, <br>Canada</p>\n            </div>\n            <div class=\"col-md-3 social\" mbr-if=\"showSocial\">\n                <h3 class=\"title__social mbr-bold mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".title__social\">Social media</h3>\n                <p class=\"social__item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".social\"><a href=\"#\" class=\"text-black mbr-bold\">Facebook</a></p>\n                <p class=\"social__item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".social\"><a href=\"#\" class=\"text-black mbr-bold\">Instagram</a></p>\n                <p class=\"social__item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".social\"><a href=\"#\" class=\"text-black mbr-bold\">Twitter</a></p>\n            </div>\n            <div class=\"divider\" mbr-if=\"showAddress || showSocial\"></div>\n\n            <div class mbr-class=\"{'col-md-12' : showAddress || showSocial, 'col-md-6' : !showAddress || !showSocial}\">\n                <div mbr-form class=\"d-flex\">\n                    <!--Formbuilder Form-->\n                    <form action=\"sojh09@gmail.com\" name=\"Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\" data-verified=\"sojh09@gmail.com\">\n                        <div class=\"row\">\n                            <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling\n                                out the form!</div>\n                            <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\"> </div>\n                        </div>\n                        <div class=\"dragArea row\">\n                            <div class=\"col-md-12 col-sm-12 form-group\" data-for=\"name\" mbr-class=\"{'col-lg-4' : showAddress || showSocial, 'col-lg-6' : !showAddress && !showSocial}\">\n                                <label mbr-text mbr-theme-style=\"display-4\" for=\"name\" class=\"form-control-label mbr-fonts-style\">Name (required)</label>\n                                <input type=\"text\" name=\"name\" placeholder=\"Your name\" data-form-field=\"text\" mbr-theme-style=\"display-4\" required=\"required\" class=\"form-control\" value>\n                            </div>\n                            <div class=\"col-md-12 col-sm-12 form-group\" data-for=\"company\" mbr-class=\"{'col-lg-4' : showAddress || showSocial, 'col-lg-6' : !showAddress && !showSocial}\" hidden=\"hidden\">\n                                <label mbr-text mbr-theme-style=\"display-4\" for=\"company\" class=\"form-control-label mbr-fonts-style\" hidden=\"hidden\">Company (required)</label>\n                                <input type=\"email\" name=\"company\" placeholder=\"Your company name\" data-form-field=\"email\" mbr-theme-style=\"display-4\" required=\"required\" class=\"form-control\" value hidden=\"hidden\">\n                            </div>\n                            <div data-for=\"email\" class=\"col-md-12 col-sm-12 form-group\" mbr-class=\"{'col-lg-4' : showAddress || showSocial, 'col-lg-6' : !showAddress && !showSocial}\" hidden=\"hidden\">\n                                <label mbr-text mbr-theme-style=\"display-4\" for=\"email\" class=\"form-control-label mbr-fonts-style\" hidden=\"hidden\">Email (required)</label>\n                                <input type=\"tel\" name=\"email\" placeholder=\"Your working email\" data-form-field=\"phone\" mbr-theme-style=\"display-4\" class=\"form-control\" pattern=\"*\" required=\"required\" value hidden=\"hidden\">\n                            </div>\n                            <div data-for=\"phone \" class=\"col-md-12 col-sm-12 form-group\" mbr-class=\"{'col-lg-4' : showAddress || showSocial, 'col-lg-6' : !showAddress && !showSocial}\" hidden=\"hidden\">\n                                <label mbr-text mbr-theme-style=\"display-4\" for=\"phone \" class=\"form-control-label mbr-fonts-style\" hidden=\"hidden\">Phone (optional)</label>\n                                <input type=\"text\" name=\"phone \" placeholder=\"Your actual phone number\" data-form-field=\"phone \" mbr-theme-style=\"display-7\" class=\"form-control\" value hidden=\"hidden\">\n                            </div>\n                            <div data-for=\"subject\" class=\"col-md-12 col-sm-12 form-group\" mbr-class=\"{'col-lg-4' : showAddress || showSocial, 'col-lg-6' : !showAddress && !showSocial}\" hidden=\"hidden\">\n                                <label mbr-text mbr-theme-style=\"display-4\" for=\"subject\" class=\"form-control-label mbr-fonts-style\" hidden=\"hidden\">Subject (optional)</label>\n                                <input type=\"text\" name=\"subject\" placeholder=\"Subject\" data-form-field=\"subject\" mbr-theme-style=\"display-7\" class=\"form-control\" value hidden=\"hidden\">\n                            </div>\n                            <div data-for=\"select\" class=\"col-md-12 col-sm-12 form-group\" mbr-class=\"{'col-lg-4' : showAddress || showSocial, 'col-lg-6' : !showAddress && !showSocial}\" hidden=\"hidden\">\n                                <label mbr-text mbr-theme-style=\"display-4\" for=\"select\" class=\"form-control-label mbr-fonts-style\" hidden=\"hidden\">Choose a Budget (USD)</label>\n                                <select name=\"select\" data-form-field=\"select\" mbr-theme-style=\"display-4\" class=\"form-control\" hidden=\"hidden\">\n                                    <option value=\"Less then $5000\">Less than $5000</option>\n                                    <option value=\"$10000\">$10000</option>\n                                    <option value=\"$30000\">$30000</option>\n                                </select>\n                            </div>\n                            <div class=\"col-lg-12 col-md-12 col-sm-12 form-group\" data-for=\"Message\">\n                                <label mbr-text mbr-theme-style=\"display-4\" for=\"Message\" class=\"form-control-label mbr-fonts-style\">Project details</label>\n                                <textarea name=\"Message\" placeholder=\"Brief information about the project\" data-form-field=\"Message\" mbr-theme-style=\"display-4\" class=\"form-control\"></textarea>\n                            </div>\n                            <div mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" class=\"col-lg-3 col-md-12 col-sm-12 input-group-btn\" mbr-class=\"{'col-lg-6' : !showAddress || !showSocial}\">\n                                <a data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" type=\"submit\" class=\"btn btn-secondary\">Send a Message</a>\n                            </div>\n                        </div>\n                    </form>\n                    <!--Formbuilder Form-->\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "tFDWB31eYj",
+          "_customHTML": "<section class=\"contact4 conferencem4_contact4\" group=\"Contacts\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"25-1, Jalan 2/105, Taman Midah, 56000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur\" value=\"25-1, Jalan 2/105, Taman Midah, 56000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur\">\n\t\t<input type=\"range\" inline title=\"Height Map\" name=\"heightMap\" min=\"300\" max=\"800\" step=\"20\" value=\"540\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Block\" name=\"showBlock\" checked>\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" condition=\"showBlock\">\n\t\t<input type=\"color\" title=\"Color Block\" name=\"colorBlock\" value=\"#ffffff\" condition=\"showBlock\">\n\t\t<input type=\"range\" inline title=\"Opacity Block\" name=\"blockOpacity\" min=\"0\" max=\"100\" value=\"95\" step=\"1\">\n\t\t<select name=\"alignContent\" title=\"Align Content\">\n\t\t\t<option value=\"1\">Left</option>\n\t\t\t<option value=\"2\">Center</option>\n\t\t\t<option value=\"3\" selected>Right</option>\n\t\t</select>\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"main_wrapper\">\n\t\t<div class=\"b_wrapper\" mbr-if=\"showBlock\">\n\t\t\t<div class=\"container\">\n\t\t\t\t<div class=\"row\" mbr-class=\"{'justify-content-start' : alignContent == 1, \n                                            'justify-content-center' : alignContent == 2, \n                                            'justify-content-end' : alignContent == 3}\">\n\t\t\t\t\t<div class=\"col-12 col-md-5 block_wrapper\">\n\t\t\t\t\t\t<h4 class=\"mbr-fonts-style mbr-bold title__address\" mbr-theme-style=\"display-5\" data-app-selector=\".title__address, .mbr-section-btn\"><span style=\"font-weight: normal;\">联系我们</span></h4>\n\t\t\t\t\t\t<p class=\"work__address mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".work__address\"><b>地址：</b><b><br></b>25-1, Jalan 2/105, Taman Midah, 56000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur<br></p>\n\t\t\t\t\t\t<p class=\"work__phone mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".work__phone\">电邮：<br><span style=\"font-weight: normal;\">zhigongtang.my@gmail.com</span><br></p>\n\t\t\t\t\t\t<p class=\"work__time mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".work__time\"><b>联系人：<br></b>总秘书戴伟发 012-7083498<br></p>\n\t\t\t\t\t\t<div class=\"mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnRemove,-mbrBtnAdd\"><a class=\"btn btn-primary\" href=\"#\" data-app-placeholder=\"Type Text\">To buy a ticket</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<!--Map-->\n\t\t<div class=\"google-map\" mbr-map=\"googleMap\">\n\t\t</div>\n\t</div>\n</section>",
+          "_cid": "tFDXxK2Yxp",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "contact2-1r"
+          "_anchor": "contact4-1s"
+        },
+        {
+          "_name": "header03",
+          "_sourceTheme": "artistm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"artistm5 header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"11\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/artistm5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/artistm5/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12\">\n                <h2>提交留言</h2>\n                <iframe data-tally-src=\"https://tally.so/embed/31kEMl?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1\" loading=\"lazy\" width=\"100%\" height=\"440\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\" title=\"联系致公堂\"></iframe>[JS_CODE_0]\n            </div>\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            "H2": {
+              "text-align": "left"
+            }
+          },
+          "_cid": "tFEd2MbPS1",
+          "_anchor": "header03-1t",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script>var d=document,w=\"https://tally.so/widgets/embed.js\",v=function(){\"undefined\"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll(\"iframe[data-tally-src]:not([src])\").forEach((function(e){e.src=e.dataset.tallySrc}))};if(\"undefined\"!=typeof Tally)v();else if(d.querySelector('script[src=\"'+w+'\"]')==null){var s=d.createElement(\"script\");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>"
+          ],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         },
         {
           "_name": "afooter2",
           "_sourceTheme": "homem5",
-          "_customHTML": "<section class=\"footer2 homem5\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/homem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1a1e21\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1a1e21\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    Developed and Powered by Vastcomp Solutions Sdn Bhd</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer2 homem5\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/homem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1a1e21\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1a1e21\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <a href =\"https://www.vcgroup.com.my\" target=\"_blank\">\n                <div class=\"vc-logo mbr-text mb-0 mbr-fonts-style align-left\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    Developed and Powered by Vastcomp Solutions Sdn Bhd <img src=\"@PROJECT_PATH@/assets/images/vastcomplogo-153x114.png\"></div></a>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -7114,14 +7140,21 @@
             },
             ".media-container-row .mbr-text": {
               "text-align": "center"
+            },
+            ".vc-logo": {
+              "img": {
+                "height": "40px"
+              }
             }
           },
           "_cid": "tFzs0kNvSo",
+          "_anchor": "afooter2-1q",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
-          "_params": {},
-          "_anchor": "afooter2-1q"
+          "_params": {}
         }
       ]
     }
